@@ -1,4 +1,4 @@
-The following applies to OpenVPN deployment on Windows 10
+I largely followed the instructions at https://community.openvpn.net/openvpn/wiki/HOWTO . The following applies to OpenVPN deployment on Windows 10.
 
 ## Setup routing services on the OpenVPN server
 Open Windows Services on the OpenVPN server, enable Routing and Remote Access service. Choose "Startup type: Autotamatic (Delayed Start)" and "Subsequent failures: Restart the Service"
