@@ -1,6 +1,7 @@
 # /etc/network/interfaces
 # The host network interface
-# Find out the available interfaces using $ ls /sys/class/net
+# Find out the available interfaces using
+# $ ls /sys/class/net
 auto enp0s8
 allow-hotplug enp0s8
 iface enp0s8 inet static
